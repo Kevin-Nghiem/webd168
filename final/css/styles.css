@@ -1,0 +1,65 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 2rem;
+}
+#about img {
+  width: 16rem;
+  height: 16rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+#about h2, #about h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+#about p {
+  font-size: 1.125rem;
+  color: #d1d5db;
+  line-height: 1.6;
+}
+#about table {
+  font-size: 1rem;
+}
+#about table th, #about table td {
+  padding: 0.75rem 1rem;
+}
+@media (max-width: 768px) {
+  #about {
+    padding: 2rem 1rem;
+  }
+  #about img {
+    width: 10rem;
+    height: 10rem;
+  }
+  #about h2, #about h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #about p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #about table {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 480px) {
+  #about img {
+    width: 8rem;
+    height: 8rem;
+  }
+  #about h2, #about h3 {
+    font-size: 1.25rem;
+  }
+  #about p {
+    font-size: 0.95rem;
+  }
+  #about table {
+    font-size: 0.85rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

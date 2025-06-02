@@ -1,0 +1,76 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 2rem;
+
+  img {
+    width: 16rem;
+    height: 16rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  h2, h3 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: white;
+  }
+
+  p {
+    font-size: 1.125rem;
+    color: #d1d5db; // text-gray-300
+    line-height: 1.6;
+  }
+
+  table {
+    font-size: 1rem;
+    th, td {
+      padding: 0.75rem 1rem;
+    }
+  }
+
+  // 👉 Responsive Adjustments for Mobile
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+
+    img {
+      width: 10rem;
+      height: 10rem;
+    }
+
+    h2, h3 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    table {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    img {
+      width: 8rem;
+      height: 8rem;
+    }
+
+    h2, h3 {
+      font-size: 1.25rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+    }
+
+    table {
+      font-size: 0.85rem;
+    }
+  }
+}
